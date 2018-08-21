@@ -1,0 +1,6 @@
+<h1>LIBRERIA#index</h1>
+<p>Find me in app/views/bookstore/index.html.erb</p>
+
+<% if not user_signed_in? %>
+    <a href="<%=  new_user_session_path %>">Log in</a>
+<% end %>    
